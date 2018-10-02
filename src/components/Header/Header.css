@@ -1,0 +1,29 @@
+.App-header {
+  background: linear-gradient(to right, #152E4B, #537CBC) ;
+  height: 70px;
+  padding: 20px;
+  margin-bottom: 2%;
+  color: white;
+  display: flex;
+  justify-content: left;
+}
+
+img.jopwell-logo {
+  width: 45%;
+  height: 90%;
+  margin-left: 1%;
+}
+
+@media screen and (min-width: 700px) {
+
+  img.jopwell-logo {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+
+  img.jopwell-logo {
+    width: 20%;
+  }
+}

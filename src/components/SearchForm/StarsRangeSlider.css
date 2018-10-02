@@ -1,0 +1,39 @@
+.range-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#stars-input .stars-input {
+  width: 90%;
+}
+
+@media screen and (min-width: 700px) {
+
+  .range-wrapper, .forked {
+    padding-left: 2%;
+  }
+}
+
+.range-wrapper > label {
+  padding-left: 2%;
+  display: flex;
+  text-align: left;
+}
+
+.range-wrapper > .stars-input {
+  height: 34px;
+  width: 90%;
+  margin: 0 auto;
+  border: none;
+  background-color: #F9FAFC;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.bounds {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}

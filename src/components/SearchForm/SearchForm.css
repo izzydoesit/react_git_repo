@@ -1,0 +1,48 @@
+.form-container {
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  padding: 3%;
+  padding-bottom: 0;
+  margin: 0 auto;
+  font-size: 1.3em;
+}
+
+.two-input {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.two-input > div {
+  width: 100%;
+}
+
+.submit-btn {
+  background-color: #152E4B;
+  color: #FFF;
+  display: block;
+  border-radius: 7px;
+  padding: 3%;
+  margin: 2%;
+  transition: background-color 0.5s ease-in-out;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.submit-btn:hover:enabled {
+  color: #FFF;
+  background-color: #537CBC;
+}
+
+@media screen and (min-width: 700px) {
+
+  .two-input > div {
+    flex: 0 0 49%;
+  }
+  .submit-btn {
+    padding: 2%;
+  }
+}
+

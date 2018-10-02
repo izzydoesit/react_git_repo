@@ -1,0 +1,12 @@
+.license {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: left;
+  align-items: flex-start;
+  margin-top: 4%;
+}
+
+.license > label {
+  padding-left: 2%;
+}

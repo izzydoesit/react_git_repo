@@ -1,0 +1,33 @@
+.forked {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+@media screen and (min-width: 700px) {
+
+  .forked {
+    justify-content: left;
+    padding-bottom: 0.5%;
+  }
+}
+
+input[type='checkbox'] {
+  height: 1.3em;
+  width: 2em;
+}
+
+label.forked-label {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-left: 2%;
+}
+
+label.forked-label > span {
+  text-align: left;
+  padding-left: 5%;
+  width: 100%;
+}

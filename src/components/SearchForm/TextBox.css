@@ -1,0 +1,24 @@
+.label-error-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.label-error-wrapper > label {
+  width: 10%;
+  padding-left: 2%;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.formError {
+  width: 80%;
+  height: 2em;
+  color: red;
+  font-weight: 600;
+  justify-content: left;
+}
+
+.error {
+  border: 1px solid red;
+}
